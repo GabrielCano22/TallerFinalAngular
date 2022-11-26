@@ -1,0 +1,24 @@
+.banner{
+    background-image: url(https://r2imghtlak.mmtcdn.com/r2-mmt-htl-image/htl-imgs/202204281124082990-04565c9cdc0f11ec820c0a58a9feac02.jpg?&output-quality=75&downsize=910:612&crop=910:612;57,0&output-format=jpg);
+    background-position: top center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 10% 30% 40% 10%;
+    position: relative;
+    z-index: 1;
+}
+.fotocard{
+    width: 250px;
+    height: 250px;
+}
+.banner::after{
+    content: '';
+    position: absolute;
+    background-color: black;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.4;
+    z-index: -1;
+}
